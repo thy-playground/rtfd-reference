@@ -15,6 +15,3 @@ build  :
   jobs :
     post_checkout:
       - git submodule update --init
-#  commands:
-#    - git submodule update --init
-#    - python -m sphinx -T -E -b html -d _build/doctrees -D language=en . _build/html
