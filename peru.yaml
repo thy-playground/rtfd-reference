@@ -1,0 +1,11 @@
+imports                        :
+  thy_global          : ./
+  google-cloud-4-words: src/pub/google-cloud-4-words
+
+git module google-cloud-4-words:
+  url: https://github.com/thierryhumphrey/google-cloud-4-words.git
+
+git module thy_global:
+  url: https://github.com/thy-playground/rtfd-global.git
+  drop:
+    - .gitignore
